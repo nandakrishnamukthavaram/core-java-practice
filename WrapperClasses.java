@@ -1,5 +1,6 @@
 public class WrapperClasses {
     public static void main(String[] args) {
+        @SuppressWarnings("removal") // Ignores the depricated syntax warning for the next line.
         Integer num = new Integer(100); // Depricated Boxing method.
         Integer num1 = 20; // Auto Boxing
         System.out.println(num + num1);

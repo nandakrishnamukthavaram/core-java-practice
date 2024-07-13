@@ -19,6 +19,7 @@ class IRanOutOfExamplesAgain {
 }
 
 public class StaticBlock {
+    @SuppressWarnings("unused") // Warnings will be ignored for unused instances.
     public static void main(String[] args) throws ClassNotFoundException {
         IRanOutOfExamples example11 = new IRanOutOfExamples();
         IRanOutOfExamples example12 = new IRanOutOfExamples();

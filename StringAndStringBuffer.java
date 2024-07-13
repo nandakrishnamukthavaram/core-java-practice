@@ -13,7 +13,7 @@ public class StringAndStringBuffer {
          * You are dedicating another part of memory from the jvm memory heap
          * and storing the updated value in the new memory
          */
-        System.out.println(name);
+        System.out.println(name + favNum);
 
         // String Functions
         // Format
