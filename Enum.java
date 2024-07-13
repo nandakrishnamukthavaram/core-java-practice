@@ -25,17 +25,17 @@ enum ABC {
 
     private ABC(int i) {
         this.i = i;
-        System.out.println("I");
+        System.out.println(this.i);
     }
 
     private ABC(char c) {
         this.c = c;
-        System.out.println("C");
+        System.out.println(this.c);
     }
 
     private ABC(String s) {
         this.s = s;
-        System.out.println("S");
+        System.out.println(this.s);
     }
 
 }
